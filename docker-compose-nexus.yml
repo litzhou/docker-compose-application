@@ -2,7 +2,7 @@ version: '2'
 services:
   # nexus
   nexus:
-    image: sonatype/nexus:sso
+    image: hub.c.163.com/lightingfire/nexus:2.13.0-01
     restart: always
     ports:
       - "8081:8081"
