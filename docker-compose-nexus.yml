@@ -2,7 +2,7 @@ version: '2'
 services:
   # nexus
   nexus:
-    image: sonatype/nexus
+    image: sonatype/nexus:sso
     restart: always
     ports:
       - "8081:8081"
